@@ -1,0 +1,4 @@
+INSERT INTO admin(id, requests)
+VALUES
+('ad_1', NULL),
+('ad_2', NULL);

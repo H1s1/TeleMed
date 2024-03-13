@@ -1,0 +1,79 @@
+//fn1 
+//Function to generate_next_id.
+
+DELIMITER $$
+
+ CREATE FUNCTION generate_next_id(in_type VARCHAR(2))
+ RETURNS VARCHAR(10)
+ DETERMINISTIC NO SQL READS SQL DATA
+     BEGIN
+        DECLARE next_id VARCHAR(10);
+    
+        SELECT CONCAT(in_type, '_', counter)
+        INTO next_id
+         FROM id_counter
+        WHERE type = in_type;
+    
+         UPDATE id_counter
+         SET counter = counter + 1
+         WHERE type = in_type;
+    
+         RETURN next_id;
+     END $$
+   
+ DELIMITER ;
+
+//fn2
+//function that ensures that if id starts with 'ad' the 
+ type should also be 'ad' similarly if it starts with pt then 
+ type should also be 'pt' and if start with dr type should be 'dr'.
+
+DELIMITER $$
+
+
+
+//fn3
+//... 
+
+CREATE TRIGGER check_id_type
+BEFORE INSERT ON USER
+FOR EACH ROW
+BEGIN
+    DECLARE prefix VARCHAR(2);
+    
+    -- Extract the prefix from the new id
+    SET prefix = SUBSTRING(NEW.id, 1, 2);
+
+    -- Check if the type matches the extracted prefix
+    IF prefix = 'ad' AND NEW.type != 'ad' THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Invalid type for id starting with ''ad''.';
+    ELSEIF prefix = 'dr' AND NEW.type != 'dr' THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Invalid type for id starting with ''dr''.';
+    ELSEIF prefix = 'pt' AND NEW.type != 'pt' THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Invalid type for id starting with ''pt''.';
+    END IF;
+END $$
+
+DELIMITER ; 
+
+
+//fn3
+//...
+ create view new_dr_info AS
+   SELECT req_id,sender_id,name,img,city,speciality,id_doc FROM request
+ JOIN
+ pending_user ON pending_user.id = request.sender_id
+ JOIN
+ pending_doctor ON pending_doctor.id = pending_user.id;
+
+//f4
+//...
+ create view new_pt_info AS
+   SELECT req_id,sender_id,name,img,prblm_category,age,symptoms,city,id_doc FROM request
+ JOIN
+ pending_user ON pending_user.id = request.sender_id
+ JOIN
+ pending_patient ON pending_patient.id = pending_user.id;

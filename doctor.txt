@@ -1,0 +1,13 @@
+
+-- Example of inserting a new doctor
+INSERT INTO USER (id, pswrd, type, name, img, city)
+VALUES (generate_next_id('dr'), 'abc123', 'dr', 'John Doe', NULL, 'Delhi');
+
+
+INSERT INTO doctor (id, speciality, id_doc, requests)
+VALUES
+('dr_1' , 'general', NULL, NULL ),
+('dr_2' , 'general', NULL, NULL ),
+('dr_3' , 'gynecologic', NULL, NULL ),
+('dr_4' , 'gynecologic', NULL, NULL ),
+('dr_5' , 'pediatrics', NULL, NULL );

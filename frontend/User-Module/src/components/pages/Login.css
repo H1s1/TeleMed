@@ -1,0 +1,54 @@
+/* Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Set your desired background color */
+}
+
+.login-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-form h2 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #1f6c52; /* Set your desired text color */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-family: "Nunito Sans", sans-serif;
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #1f6c52; /* Set your desired button color */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  margin: 0px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+button:hover {
+  background-color: #15513e; /* Set your desired button hover color */
+}

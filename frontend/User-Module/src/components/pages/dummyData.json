@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dr_6_1",
+    "pswrd": "abc125",
+    "type": "dr",
+    "name": "Sam",
+    "img": "data:image/png;base64,iVBORw...", 
+    "city": "Paris",
+    "status": 1,
+    "createdAt": "2024-03-06T16:40:31.000Z",
+    "updatedAt": "2024-03-06T16:40:31.000Z"
+  },
+    {
+      "id": "dr_6",
+      "speciality": "general",
+      "id_doc": {
+        "type": "Buffer",
+        "data": [49, 48, 48, 48, 49, 49, 49, 49, 49, 49]
+      },
+      "requests": 0,
+      "status": 1,
+      "createdAt": "2024-03-06T16:40:31.000Z",
+      "updatedAt": "2024-03-06T16:40:31.000Z"
+    }
+  ]
+  

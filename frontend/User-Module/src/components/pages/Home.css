@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+  
+  margin: 0;
+  padding: 0;
+}
+.second-content{
+  display: flex;
+}
+.left-content{
+  padding: 20px 100px;
+
+}
+.left-content h5{
+  font-size: 30px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.left-content h6{
+  padding-top:  10px;
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300px;
+}
+.left-content button{
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: rgb(31, 108, 82);
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+}
+.right-content img{
+  margin-left: 50px;
+  height:300px;
+  width: 350px;
+  
+}
+.third-container{
+  overflow-x: scroll;
+  margin-top: 30px;
+}
+.third-container img{
+
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+}
+.widthlength{
+  padding: 0px 100px;
+  justify-content: center;
+  text-align: start;
+}
+.fourth-container{
+  margin: 50px ;
+}
+.fifth-container{
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  
+  width: 100%;
+  background-color: blanchedalmond;
+}
+.fifth-container h5{
+  font-size: 30px;
+}
+.fifth-container button{
+ align-items: baseline;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: rgb(31, 108, 82);
+  color: white;
+  font-family: "Nunito Sans", sans-serif;;
+}
+
+.third-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide the scrollbar in Microsoft Edge */
+.third-container {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.sixth-container{
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  
+  width: 100%;
+  background-color: blanchedalmond;
+}
+.sixth-container ul li{
+  margin-top: 30px;
+}
+.seventh-container{
+  align-items: center;
+}
+.seventh-container .card {
+          margin: 20px 90px;
+          width: 400px;
+          text-align: center;
+}
+.seventh-container ul li{
+  margin-top: 20px;
+  border: 2px solid black;
+}
+.bottom-container{
+  background-color: black;
+  width: 100%;
+  height: auto;
+  padding:50px 150px;
+  color: white;
+  display: flex;
+}
+.bottom-container ul li{
+  list-style: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.bottom-container ul li:hover{
+  color :blue;
+}
+.r2{
+  margin-left: 230px;
+}
+.bottom-container h5{
+  font-size: 25px;
+}

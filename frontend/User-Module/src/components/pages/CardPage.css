@@ -1,0 +1,6 @@
+img{
+  height: auto;  /* Maintain aspect ratio */
+  max-width: 100%;  /* Maximum width to fit within the container */
+  display: block;  /* Remove any extra spacing below the image */
+  margin: 0 auto;
+}

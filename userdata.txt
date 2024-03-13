@@ -1,0 +1,17 @@
+INSERT INTO USER (id, pswrd, type, name, img, city)
+VALUES 
+(generate_next_id('ad') , 'abc123', 'ad', 'Ramesh', NULL, 'Delhi');
+
+(generate_next_id('dr') , 'abc123', 'dr', 'Aman', NULL, 'Raipur'),
+(generate_next_id('dr') , 'abc123', 'dr', 'Karan', NULL, 'Raipur'),
+(generate_next_id('dr') , 'abc123', 'dr', 'Ajay', NULL, 'Raipur'),
+(generate_next_id('dr') , 'abc123', 'dr', 'Ravi', NULL, 'Haryana'),
+(generate_next_id('pt') , 'abc123', 'pt', 'Akriti', NULL, 'Raipur'),
+(generate_next_id('pt') , 'abc123', 'pt', 'Niharika', NULL, 'Bhilai'),
+(generate_next_id('pt') , 'abc123', 'pt', 'Ayush', NULL, 'Bhopal'),
+(generate_next_id('pt') , 'abc123', 'pt', 'Nikita', NULL, 'Bhilai');
+
+
+
+
+

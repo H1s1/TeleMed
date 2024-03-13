@@ -1,0 +1,10 @@
+1. in newUserController new registeration request is only sent to 'ad_1' not to every admin . We need to send the 
+   request to each admin in a user/admin table 
+
+   ---> In our frontend we'll fetch all the request that is made to 'ad_1' and present that request list to each admin 
+        and any admin can accept or reject the request as all admin will be having the single webpage 
+
+2. In table user,pending_user,pending_patient,patient I have declared a common column "city" that is creating 
+   ambiguity
+
+   ---> Delete "city" column  from pending_patient,patient because it already exists in pending_user,user table      

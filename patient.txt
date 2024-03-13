@@ -1,0 +1,7 @@
+INSERT INTO patient(id, prblm_category, age, symptoms, requests, city, id_doc)
+VALUES
+('pt_1', 'gynecologic', 20 , 'irregrlar periods', NULL , 'Bhilai', NULL ),
+('pt_2', 'gynecologic', 20 , 'irregrlar periods', NULL , 'Raipur', NULL ),
+('pt_3', 'padiatric', 20 , 'cry baby', NULL , 'Bhilai', NULL ),
+('pt_4', 'general', 20 , 'common cold', NULL , 'Bhopal', NULL ),
+('pt_5', 'gynecologic', 20 , 'irregrlar periods', NULL , 'Bhilai', NULL );

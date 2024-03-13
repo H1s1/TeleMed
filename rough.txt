@@ -1,0 +1,184 @@
+{
+  "data": [
+    {
+      "id": "ad_1",
+      "pswrd": "abc123",
+      "type": "ad",
+      "name": "Suresh",
+      "img": null,
+      "city": "Bangalore",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "ad_2",
+      "pswrd": "abc123",
+      "type": "ad",
+      "name": "Ramesh",
+      "img": null,
+      "city": "Delhi",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "ad_3",
+      "pswrd": "abc125",
+      "type": "ad",
+      "name": "Mariya",
+      "img": "0x31303030303030313131313131313131",
+      "city": "Texes",
+      "createdAt": "2024-03-07 07:17:53",
+      "updatedAt": "2024-03-07 07:17:53"
+    },
+    {
+      "id": "dr_1",
+      "pswrd": "abc123",
+      "type": "dr",
+      "name": "John Doe",
+      "img": null,
+      "city": "Delhi",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "dr_2",
+      "pswrd": "abc123",
+      "type": "dr",
+      "name": "Aman",
+      "img": null,
+      "city": "Raipur",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "dr_3",
+      "pswrd": "abc123",
+      "type": "dr",
+      "name": "Karan",
+      "img": null,
+      "city": "Raipur",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "dr_4",
+      "pswrd": "abc123",
+      "type": "dr",
+      "name": "Ajay",
+      "img": null,
+      "city": "Raipur",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "dr_5",
+      "pswrd": "abc123",
+      "type": "dr",
+      "name": "Ravi",
+      "img": null,
+      "city": "Haryana",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "dr_6",
+      "pswrd": "abc125",
+      "type": "dr",
+      "name": "Sam",
+      "img": "0x31303030303030313131313131313131",
+      "city": "Paris",
+      "createdAt": "2024-03-06 16:40:31",
+      "updatedAt": "2024-03-06 16:40:31"
+    },
+    {
+      "id": "dr_7",
+      "pswrd": "khu125",
+      "type": "dr",
+      "name": "Khushi",
+      "img": "0x31303030303030313131313131313131",
+      "city": "Raigarh",
+      "createdAt": "2024-03-08 10:13:11",
+      "updatedAt": "2024-03-08 10:13:11"
+    },
+    {
+      "id": "pt_1",
+      "pswrd": "abc123",
+      "type": "pt",
+      "name": "kavita",
+      "img": null,
+      "city": "Bhilai",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "pt_2",
+      "pswrd": "abc123",
+      "type": "pt",
+      "name": "Akriti",
+      "img": null,
+      "city": "Raipur",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "pt_3",
+      "pswrd": "abc123",
+      "type": "pt",
+      "name": "Niharika",
+      "img": null,
+      "city": "Bhilai",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "pt_4",
+      "pswrd": "abc123",
+      "type": "pt",
+      "name": "Ayush",
+      "img": null,
+      "city": "Bhopal",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "pt_5",
+      "pswrd": "abc123",
+      "type": "pt",
+      "name": "Nikita",
+      "img": null,
+      "city": "Bhilai",
+      "createdAt": null,
+      "updatedAt": null
+    },
+    {
+      "id": "pt_6",
+      "pswrd": "abc125",
+      "type": "pt",
+      "name": "john lio",
+      "img": "0x31303030303030313131313131313131",
+      "city": "mosco",
+      "createdAt": "2024-03-07 06:41:44",
+      "updatedAt": "2024-03-07 06:41:44"
+    },
+    {
+      "id": "pt_7",
+      "pswrd": "abc125",
+      "type": "pt",
+      "name": "Henrrey",
+      "img": "0x31303030303030313131313131313131",
+      "city": "newyork",
+      "createdAt": "2024-03-07 06:53:44",
+      "updatedAt": "2024-03-07 06:53:44"
+    }
+  ]
+}
+
+      "id": "dr_1",
+      "pswrd": "abc123",
+      "type": "dr",
+      "name": "Suresh",
+      "img": null,
+      "city": "Bangalore",
+      "speciality":"general",
+      "id_doc":"null",
+      "request":0
